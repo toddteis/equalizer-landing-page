@@ -9,6 +9,13 @@
     box-sizing: inherit;
 }
 
+:root {
+    --aqua: hsl(177,68,64);
+    --red: hsl(12,94,65);
+    --orangle: hsl(33,100,70);
+    --white: hsl(20,33,98);
+    --black: hsl(244,23,12);
+}
 
 html {
     box-sizing: border-box;
@@ -24,4 +31,5 @@ html {
     bottom: 0;
     font-size: 11px;
     text-align: center; }
+
 .attribution a { color: hsl(228, 45%, 44%); }
