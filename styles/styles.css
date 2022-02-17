@@ -28,6 +28,16 @@ body {
     background-image: url('../assets/bg-main-mobile.png');
 }
 
+/* HEADER */
+
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 24px;
+    color: var(--black);
+}
+
 /* FOOTER */
 
 .attribution {
