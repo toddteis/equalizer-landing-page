@@ -33,17 +33,18 @@ body {
 /* HEADER */
 
 h1 {
+    width: 327px;
+    margin: auto;
     font-size: 32px;
     font-weight: 700;
     margin-top: 40px;
-    margin-left: 24px;
     color: var(--black);
 }
 
 /* INTRO */
 
 .intro {
-    width: 87.204%;
+    width: 327px;
     margin: auto;
     height: 327px;
 }
