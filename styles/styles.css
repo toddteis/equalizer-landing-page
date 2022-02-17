@@ -21,6 +21,8 @@ html {
     box-sizing: border-box;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
+    font-weight: 400;
+    color: var(--black);
     background-color: var(--white);
 }
 
@@ -36,6 +38,29 @@ h1 {
     margin-top: 40px;
     margin-left: 24px;
     color: var(--black);
+}
+
+/* INTRO */
+
+.intro {
+    width: 87.204%;
+    margin: auto;
+    height: 327px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.454545px;
+    margin-top: 64px;
+}
+
+.intro p {
+    height: 156px;
+    width: 100%;
+    line-height: 26px;
+    margin-top: 20px;
 }
 
 /* FOOTER */
