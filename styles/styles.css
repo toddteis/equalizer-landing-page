@@ -21,6 +21,11 @@ html {
     box-sizing: border-box;
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
+    background-color: var(--white);
+}
+
+body {
+    background-image: url('../assets/bg-main-mobile.png');
 }
 
 /* FOOTER */
