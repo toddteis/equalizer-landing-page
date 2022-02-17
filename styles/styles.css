@@ -64,6 +64,22 @@ h2 {
     margin-top: 20px;
 }
 
+/* CTA */
+
+.call-to-action {
+    width: 375px;
+    margin: auto;
+    height: 1024px;
+}
+
+.call-to-action img {
+    display: block;
+    height: 430px;
+    width: 209px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 /* FOOTER */
 
 .attribution {
