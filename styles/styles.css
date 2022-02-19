@@ -82,6 +82,16 @@ h2 {
     margin-right: auto;
 }
 
+.pattern-container {
+    width: 375px;
+    height: 600px;
+    background-color: #191826;
+    border-radius: 12px;
+    position: absolute;
+    top: 570px;
+    z-index: -1;
+}
+
 /* FOOTER */
 
 .attribution {
