@@ -78,8 +78,7 @@ h2 {
     display: block;
     height: 430px;
     width: 209px;
-    margin-left:auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 .pattern-container {
@@ -98,17 +97,80 @@ h2 {
 }
 
 .cta-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
     top: 950px;
     width: 375px;
     height: 546px;
     background-color: #FA7453;
     border-radius: 12px;
+    color: #FCFAF9;
 }
 
-.cta-text button img {
+.cta-text h3, p, button {
+    width: 80%;
+}
+
+.cta-text h3 {
+    margin-top: 48px;
+    margin-bottom: 6px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.cta-first-p {
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.amount {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.cta-text p span {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
+.cta-text button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btn-ios {
+    margin: 16px;
+    background-color: #191826;
+    color: #FCFAF9;
+}
+
+.btn-android {
+    background-color: #FCFAF9;
+    margin-bottom: 48px;
+    color: #191826;
+}
+
+.btn-text img {
     width: 20px;
-    height: auto;
+    height: 20px;
+    margin-right: 8px;
+    margin-left: 0;
 }
 
 /* FOOTER */
