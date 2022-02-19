@@ -92,6 +92,11 @@ h2 {
     z-index: -1;
 }
 
+.pattern-container img {
+    width: 75%;
+    height: auto;
+}
+
 /* FOOTER */
 
 .attribution {
