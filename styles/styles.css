@@ -28,6 +28,8 @@ html {
 
 body {
     background-image: url('../assets/bg-main-mobile.png');
+    background-repeat: no-repeat;
+    background-position:  top -250px right -190px;
 }
 
 /* HEADER */
