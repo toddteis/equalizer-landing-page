@@ -97,6 +97,20 @@ h2 {
     height: auto;
 }
 
+.cta-text {
+    position: absolute;
+    top: 950px;
+    width: 375px;
+    height: 546px;
+    background-color: #FA7453;
+    border-radius: 12px;
+}
+
+.cta-text button img {
+    width: 20px;
+    height: auto;
+}
+
 /* FOOTER */
 
 .attribution {
