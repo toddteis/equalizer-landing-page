@@ -175,12 +175,52 @@ h2 {
 
 /* FOOTER */
 
+footer {
+    width: 327px;
+    margin-top: 64px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.disclaimer {
+    margin-top: 64px;
+}
+
+.disclaimer h3 {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.disclaimer p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 91%;
+}
+
+.disclaimer p span {
+    font-weight: 700;
+}
+
+.footer-socials  {
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+.middle-social {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .attribution {
+    height: 20px;
     width: 100%;
     position: fixed;
     left: 0;
     bottom: 0;
-    font-size: 11px;
-    text-align: center; }
+    font-size: 12px;
+    text-align: center;
+    background-color: #FCFAF9;
+}
 
 .attribution a { color: hsl(228, 45%, 44%); }
