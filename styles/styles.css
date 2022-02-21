@@ -10,11 +10,11 @@
 }
 
 :root {
-    --aqua: hsl(177,68,64);
-    --red: hsl(12,94,65);
-    --orangle: hsl(33,100,70);
-    --white: hsl(20,33,98);
-    --black: hsl(244,23,12);
+    --aqua: #66E2DC;
+    --red: #FA7453;
+    --orangle: #FFB964;
+    --white: #FCFAF9;
+    --black: #191826;
 }
 
 html {
@@ -84,7 +84,7 @@ h2 {
 .pattern-container {
     width: 375px;
     height: 600px;
-    background-color: #191826;
+    background-color: var(--black);
     border-radius: 12px;
     position: absolute;
     top: 570px;
@@ -104,9 +104,9 @@ h2 {
     top: 950px;
     width: 375px;
     height: 546px;
-    background-color: #FA7453;
+    background-color: var(--red);
     border-radius: 12px;
-    color: #FCFAF9;
+    color: var(--white);
 }
 
 .cta-text h3, p, button {
@@ -156,14 +156,24 @@ h2 {
 
 .btn-ios {
     margin: 16px;
-    background-color: #191826;
-    color: #FCFAF9;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.btn-ios:hover {
+    cursor: pointer;
+    background-color: var(--aqua);
 }
 
 .btn-android {
-    background-color: #FCFAF9;
+    background-color: var(--white);
     margin-bottom: 48px;
-    color: #191826;
+    color: var(--black);
+}
+
+.btn-android:hover {
+    cursor: pointer;
+    background-color: var(--orangle);
 }
 
 .btn-text img {
@@ -205,6 +215,9 @@ footer {
 .footer-socials  {
     margin-top: 64px;
     margin-bottom: 80px;
+}
+
+.footer-socials img:hover {
 }
 
 .middle-social {
