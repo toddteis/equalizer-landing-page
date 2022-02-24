@@ -28,7 +28,7 @@ html {
 
 body {
     background-image: url('../assets/bg-main-mobile.png');
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     background-origin: border-box;
     /* background-position:  right; */
     background-position:  top -150px right -250px;
@@ -74,6 +74,7 @@ h2 {
     width: 375px;
     margin: auto;
     height: 1024px;
+    margin-top: 68px;
 }
 
 .call-to-action img {
@@ -89,7 +90,7 @@ h2 {
     background-color: var(--black);
     border-radius: 12px;
     position: absolute;
-    top: 570px;
+    top: 638px;
     z-index: -1;
 }
 
