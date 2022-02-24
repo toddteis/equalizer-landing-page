@@ -103,7 +103,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 950px;
+    top: 380px;
     width: 375px;
     height: 546px;
     background-color: var(--red);
@@ -242,11 +242,15 @@ footer {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
+/* TABLET QUERY */
+
 @media only screen and (min-width: 768px) {
     h1 {
         width: 768px;
         margin-left: 39px;
     }
+
+    /* INTRO SECTION for min-width: 768px */
 
     .intro {
         width: 520px;
@@ -267,4 +271,94 @@ footer {
         line-height: 28px;
         margin-top: 28px;
     }
+
+    /* CTA SECTION for min-width: 768px */
+
+    .call-to-action {
+        width: 696px;
+        /* margin: auto; */
+        height: 834px;
+        margin-top: 111px;
+    }
+
+    .call-to-action img {
+        display: block;
+        height: 556px;
+        width: 270px;
+        margin-left: 64px;
+    }
+
+    .pattern-container {
+        width: 696px;
+        height: 600px;
+        position: absolute;
+        top: 770px;
+    }
+
+    .pattern-container img {
+        width: 75%;
+        height: auto;
+    }
+
+    .cta-text {
+        /* top: 920px; */
+        /* top: -150px; */
+        /* left: 272px; */
+        /* left: 249px; */
+        width: 399px;
+        height: 546px;
+    }
+    
+    .cta-text h3, p, button {
+        width: 75.6%;
+    }
+    
+
+
+/*     
+
+
+
+    
+    .cta-text button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 296px;
+        height: 61px;
+        border-radius: 12px;
+        border: none;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .btn-ios {
+        margin: 16px;
+        background-color: var(--black);
+        color: var(--white);
+    }
+    
+    .btn-ios:hover {
+        cursor: pointer;
+        background-color: var(--aqua);
+    }
+    
+    .btn-android {
+        background-color: var(--white);
+        margin-bottom: 48px;
+        color: var(--black);
+    }
+    
+    .btn-android:hover {
+        cursor: pointer;
+        background-color: var(--orangle);
+    }
+    
+    .btn-text img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        margin-left: 0;
+    } */
 }
