@@ -28,8 +28,10 @@ html {
 
 body {
     background-image: url('../assets/bg-main-mobile.png');
-    background-repeat: no-repeat;
-    background-position:  top -250px right -190px;
+    /* background-repeat: no-repeat; */
+    background-origin: border-box;
+    /* background-position:  right; */
+    background-position:  top -150px right -250px;
 }
 
 /* HEADER */
@@ -39,7 +41,7 @@ h1 {
     margin: auto;
     font-size: 32px;
     font-weight: 700;
-    margin-top: 40px;
+    padding-top: 40px;
     color: var(--black);
 }
 
@@ -239,3 +241,30 @@ footer {
 }
 
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        width: 768px;
+        margin-left: 39px;
+    }
+
+    .intro {
+        width: 520px;
+        margin-left:39px;
+        height: 332px;
+    }
+
+    h2 {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.73px;
+        margin-top: 95px;
+    }
+
+    .intro p {
+        height: 112px;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 28px;
+    }
+}
