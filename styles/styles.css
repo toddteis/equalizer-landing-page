@@ -77,11 +77,22 @@ h2 {
     margin-top: 68px;
 }
 
-.call-to-action img {
+.phone-img {
     display: block;
     height: 430px;
     width: 209px;
-    margin: auto;
+    position: absolute;
+    top: -98px;
+    left: 81px;
+    z-index: -1;
+}
+
+.pattern-img {
+    width: 75%;
+    height: auto;
+    position: absolute;
+    left: 48px;
+    z-index: -2;
 }
 
 .pattern-container {
@@ -92,11 +103,6 @@ h2 {
     position: absolute;
     top: 638px;
     z-index: -1;
-}
-
-.pattern-container img {
-    width: 75%;
-    height: auto;
 }
 
 .cta-text {
@@ -302,12 +308,11 @@ footer {
     }
 
     .cta-text {
-        /* top: 920px; */
-        /* top: -150px; */
-        /* left: 272px; */
-        /* left: 249px; */
+        top: 288px;
+        left: 239px;
         width: 399px;
         height: 546px;
+        z-index: 2;
     }
     
     .cta-text h3, p, button {
