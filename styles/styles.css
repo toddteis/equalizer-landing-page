@@ -202,9 +202,6 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: column;
-}
-
-.disclaimer {
     margin-top: 64px;
 }
 
@@ -293,6 +290,7 @@ footer {
         height: 600px;
         top: 138px;
     }
+
     .phone-img {
         height: 556px;
         width: 270px;
@@ -317,52 +315,25 @@ footer {
         width: 75.6%;
     }
     
+/* FOOTER SECTION for min-width: 768px */
 
+footer {
+    width: 696px;
+    flex-direction: row;
+    margin-top: 87px;
+    margin-bottom: 20px;
+}
 
-/*     
+.disclaimer p {
+    height: 79px;
+    width: 326px;
+}
 
-
-
-    
-    .cta-text button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 296px;
-        height: 61px;
-        border-radius: 12px;
-        border: none;
-        font-family: 'IBM Plex Sans', sans-serif;
-        font-size: 18px;
-        font-weight: 700;
-    }
-    
-    .btn-ios {
-        margin: 16px;
-        background-color: var(--black);
-        color: var(--white);
-    }
-    
-    .btn-ios:hover {
-        cursor: pointer;
-        background-color: var(--aqua);
-    }
-    
-    .btn-android {
-        background-color: var(--white);
-        margin-bottom: 48px;
-        color: var(--black);
-    }
-    
-    .btn-android:hover {
-        cursor: pointer;
-        background-color: var(--orangle);
-    }
-    
-    .btn-text img {
-        width: 20px;
-        height: 20px;
-        margin-right: 8px;
-        margin-left: 0;
-    } */
+.footer-socials  {
+    height: 79px;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
 }
