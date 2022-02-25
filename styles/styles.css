@@ -263,6 +263,11 @@ footer {
         margin-left: 39px;
     }
 
+    .pattern-img-body {
+        right: -36px;
+        top: -32px;
+    }
+
     /* INTRO SECTION for min-width: 768px */
 
     .intro {
