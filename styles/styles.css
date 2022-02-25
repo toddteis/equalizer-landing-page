@@ -34,6 +34,14 @@ body {
     background-position:  top -150px right -250px;
 }
 
+.pattern-img-body {
+    position: absolute;
+    right: -10000px;
+    width: 266.6px;
+    height: 400;
+    z-index: -1;
+}
+
 /* HEADER */
 
 h1 {
