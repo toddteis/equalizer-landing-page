@@ -259,8 +259,7 @@ footer {
 
 @media only screen and (min-width: 768px) {
     h1 {
-        width: 768px;
-        margin-left: 39px;
+        width: 690px;
     }
 
     .pattern-img-body {
@@ -271,8 +270,7 @@ footer {
     /* INTRO SECTION for min-width: 768px */
 
     .intro {
-        width: 520px;
-        margin-left:39px;
+        width: 690px;
         height: 332px;
     }
 
@@ -281,10 +279,12 @@ footer {
         line-height: 64px;
         letter-spacing: -0.73px;
         margin-top: 95px;
+        width: 520px;
     }
 
     .intro p {
         height: 112px;
+        width: 520px;
         font-size: 18px;
         line-height: 28px;
         margin-top: 28px;
