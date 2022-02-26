@@ -155,6 +155,7 @@ h2 {
     align-items: center;
     margin-top: 16px;
     margin-bottom: 16px;
+    font-size: 20px;
 }
 
 .cta-text p span {
@@ -384,27 +385,81 @@ footer {
         left: 955px;
     }
 
-        /* INTRO SECTION for min-width: 1440px */
+    /* INTRO SECTION for min-width: 1440px */
 
-        .intro {
-            width: 1110px;
-            height: 318px;
-        }
-    
-        h2 {
-            font-size: 88px;
-            line-height: 88px;
-            letter-spacing: -1px;
-            margin-top: 127px;
-            width: 1000px;
-        }
-    
-        .intro p {
-            height: 102px;
-            width: 825px;
-            font-size: 20px;
-            line-height: 34px;
-            margin-top: 40px;
-        }
+    .intro {
+        width: 1110px;
+        height: 318px;
+    }
 
+    h2 {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+        margin-top: 127px;
+        width: 1000px;
+    }
+
+    .intro p {
+        height: 102px;
+        width: 825px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 40px;
+    }
+
+    /* CTA SECTION for min-width: 1440px */
+    
+    .call-to-action {
+        width: 1110px;
+        height: 928px;
+        margin-top: 108px;
+    }
+
+    .pattern-container {
+        width: 1110px;
+        height: 600px;
+        top: 213px;
+    }
+
+    .phone-img {
+        height: 642px;
+        width: 312px;
+        top: -213px;
+        left: 102px;
+    }
+
+    .cta-text {
+        top: 303px;
+        left: 569px;
+        width: 446px;
+        height: 625px;
+    }
+
+    .cta-text h3, p, button {
+        width: 74%;
+    }
+
+    .cta-text h3 {
+        margin-top: 58px;
+        margin-bottom: 11px;
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .cta-first-p {
+        margin-top: 11px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .amount {
+        margin-top: 19px;
+        margin-bottom: 23px;
+    }
+
+    .btn-ios {
+        margin-top: 23px;
+    }
 }
