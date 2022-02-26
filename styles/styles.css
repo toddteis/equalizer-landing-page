@@ -384,4 +384,27 @@ footer {
         left: 955px;
     }
 
+        /* INTRO SECTION for min-width: 1440px */
+
+        .intro {
+            width: 1110px;
+            height: 318px;
+        }
+    
+        h2 {
+            font-size: 88px;
+            line-height: 88px;
+            letter-spacing: -1px;
+            margin-top: 127px;
+            width: 1000px;
+        }
+    
+        .intro p {
+            height: 102px;
+            width: 825px;
+            font-size: 20px;
+            line-height: 34px;
+            margin-top: 40px;
+        }
+
 }
