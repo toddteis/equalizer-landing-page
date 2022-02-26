@@ -30,27 +30,30 @@ body {
     background-image: url('../assets/bg-main-mobile.png');
     background-repeat: no-repeat;
     background-origin: border-box;
-    /* background-position:  right; */
     background-position:  top -150px right -250px;
-}
-
-.pattern-img-body {
-    position: absolute;
-    right: -10000px;
-    width: 266.6px;
-    height: 400;
-    z-index: -1;
 }
 
 /* HEADER */
 
-h1 {
+header {
     width: 327px;
+    margin: auto;
+    position: relative;
+}
+
+h1 {
     margin: auto;
     font-size: 32px;
     font-weight: 700;
     padding-top: 40px;
     color: var(--black);
+}
+
+.pattern-img-body {
+    position: absolute;
+    left: -10000px;
+    width: 266.6px;
+    z-index: -1;
 }
 
 /* INTRO */
@@ -160,7 +163,7 @@ h2 {
     margin-right: 16px;
 }
 
-.cta-text button {
+.btn {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -258,12 +261,12 @@ footer {
 /* TABLET QUERY */
 
 @media only screen and (min-width: 768px) {
-    h1 {
+    header {
         width: 690px;
     }
-
+    
     .pattern-img-body {
-        right: -36px;
+        left: 500px;
         top: -32px;
     }
 
