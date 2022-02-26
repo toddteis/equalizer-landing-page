@@ -96,7 +96,7 @@ h2 {
     position: absolute;
     top: -98px;
     left: 81px;
-    z-index: -1;
+    z-index: 0;
 }
 
 .pattern-img {
@@ -104,7 +104,7 @@ h2 {
     height: auto;
     position: absolute;
     left: 48px;
-    z-index: -2;
+    z-index: -1;
 }
 
 .pattern-container {
@@ -114,7 +114,7 @@ h2 {
     border-radius: 12px;
     position: absolute;
     top: 98px;
-    z-index: -1;
+    z-index: -2;
 }
 
 .cta-text {
@@ -122,7 +122,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     position: absolute;
-    top: 380px;
+    top: 478px;
     width: 375px;
     height: 546px;
     background-color: var(--red);
@@ -198,7 +198,7 @@ h2 {
     background-color: var(--orangle);
 }
 
-.btn-text img {
+.btn img {
     width: 20px;
     height: 20px;
     margin-right: 8px;
@@ -321,7 +321,7 @@ footer {
     }
 
     .cta-text {
-        top: 150px;
+        top: 288px;
         left: 239px;
         width: 399px;
         height: 546px;
