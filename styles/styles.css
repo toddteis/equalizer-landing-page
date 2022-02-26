@@ -53,7 +53,8 @@ h1 {
     position: absolute;
     left: -10000px;
     width: 266.6px;
-    z-index: -1;
+    height: 400px;
+    z-index: 1;
 }
 
 /* INTRO */
@@ -258,16 +259,23 @@ footer {
 
 .attribution a { color: hsl(228, 45%, 44%); }
 
-/* TABLET QUERY */
+/* TABLET MEDIA QUERY */
 
 @media only screen and (min-width: 768px) {
     header {
         width: 690px;
     }
+
+
+h1 {
+    padding-top: 62px;
+}
     
     .pattern-img-body {
         left: 500px;
-        top: -32px;
+        top: -52px;
+        width: 266.7px;
+        height: 400px;
     }
 
     /* INTRO SECTION for min-width: 768px */
