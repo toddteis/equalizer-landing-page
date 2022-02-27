@@ -239,6 +239,7 @@ footer {
 }
 
 .footer-socials img:hover {
+    cursor: pointer;
     filter: invert(52%) sepia(35%) saturate(1007%) hue-rotate(322deg) brightness(104%) contrast(96%);
 }
 
