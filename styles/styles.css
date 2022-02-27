@@ -351,12 +351,12 @@ footer {
         width: 696px;
         flex-direction: row;
         margin-top: 87px;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
 
     .disclaimer p {
         height: 79px;
-        width: 326px;
+        width: 370px;
     }
 
     .footer-socials  {
@@ -374,7 +374,6 @@ footer {
 
     body {
         background-image: url('../assets/bg-main-desktop.png');
-        /* background-position:  top -280px left -320px; */
     }
 
     header {
@@ -468,5 +467,27 @@ footer {
 
     .btn-ios {
         margin-top: 23px;
+    }
+
+    /* FOOTER SECTION for min-width: 1440px */
+
+    footer {
+        margin-top: 87px;
+        width: 1110px;
+        height: 79px;
+    }
+
+    .disclaimer-text {
+        display: flex;
+    }
+
+
+    .footer-socials  {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .disclaimer p {
+        margin-left: 138px;
     }
 }
