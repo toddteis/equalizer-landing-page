@@ -45,8 +45,7 @@ Users should be able to:
 ### What I learned
 
 This was the first time I have worked with z-index to get the phone image, background pattern and call to action text section to layer correctly.
-
-This was the first time I had use position & relative/absolute to position various components in the layout.
+I also used position & relative/absolute to position various components in the layout, which I hadn't used before.
 
 ## Author
 
